@@ -1,0 +1,23 @@
+{
+  "printWidth": 80,
+  "endOfLine": "auto",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "indentStyle": "space",
+  "useTabs": true,
+  "trailingComma": "es5",
+    "overrides": [
+        {
+            "files": "*.md",
+            "options": {
+                "parser": "markdown"
+            }
+        }, 
+        {
+            "files": "*.feature",
+            "options": {
+                "parser": "cucumber"
+            }
+        }
+    ]
+}
